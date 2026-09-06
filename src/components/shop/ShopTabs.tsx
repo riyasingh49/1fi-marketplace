@@ -17,7 +17,7 @@ export default function ShopTabs({
 }) {
   return (
     <div className="-mt-5 px-5">
-      <div className="flex gap-1 rounded-full bg-[var(--color-brand-100)] p-1">
+      <div className="flex gap-1 rounded-full bg-[var(--color-brand-100)] p-2">
         {tabs.map((tab) => {
           const isActive = tab.id === active;
           return (

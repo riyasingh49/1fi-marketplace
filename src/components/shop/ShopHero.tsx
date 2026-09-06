@@ -3,7 +3,7 @@ import { Sparkles, Smartphone, Laptop } from "lucide-react";
 export default function ShopHero() {
   return (
     <div
-      className="relative overflow-hidden px-5 pb-8 pt-5"
+      className=" overflow-hidden px-5 pb-10 pt-5"
       style={{
         background:
           "linear-gradient(135deg, var(--color-brand-900) 0%, var(--color-brand-700) 55%, var(--color-brand-500) 100%)",
